@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambios en la Adolescencia</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; 
+        }
+        header {
+            background-color: darkturquoise;
+            color: whitesmoke;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 45px;
+            margin: 0; 
+        }
+        nav {
+            background-color: deeppink;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #FFD700;
+        }
+        section {
+            padding: 30px;
+        }
+        h2 {
+            font-family: 'Times New Roman', serif;
+            color: blueviolet;
+        }
+        .subtitulo {
+            font-size: 1.2em;
+        }
+        aside {
+            background-color: #f4f4f4;
+            padding: 30px;
+        }
+        aside h3 {
+            color: deeppink;
+        }
+        footer {
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        #nombre {
+            font-family: 'Times New Roman', serif;
+        }
+        #email {
+            font-family: 'Times New Roman', serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border: 5px solid darkorange; 
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #FFD700;
+        }
+        a {
+            color: paleturquoise;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .lista-personalizada {
+            list-style-type: none;
+            padding: 0;
+        }
+        .lista-personalizada li {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .lista-personalizada li:hover {
+            background-color: #FFD700;
+            color: white;
+        }
+        .destacado {
+            color: red;
+            font-weight: bold;
+        }
+        #parrafo-destacado {
+            font-style: italic;
+            color: black;
+}
+        #panel {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color:  #f2f2f2; /* gray*/
+            margin-top: 20px;
+             border: 8px solid #006400; /* Verde Oscuro */
+        }
+
+        .imagen {
+            width: 300px;
+            height: 250px;
+            margin: 10px;
+            border: 2px; 
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+        .imagen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .imagen p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cambios en la Adolescencia</h1>
+    </header>
+
+    <nav>
+        <a href="#hormonas">Hormonas</a>
+        <a href="#deseos-sexuales">Deseos Sexuales</a>
+        <a href="#cambios-cerebro">Cambios en el Cerebro</a>
+        <a href="#acne">Acné</a> <!-- Nuevo enlace para la sección de acné -->
+    </nav>
+
+    <section id="panel">
+        <div class="imagen">
+            <img src="https://th.bing.com/th/id/OIP.CWqCZuGjchR5quoGb2v1fAHaFL?w=1000&h=700&rs=1&pid=ImgDetMain" alt="Foto 1">
+        </div>
+        <div class="imagen">
+            <img src="https://th.bing.com/th/id/R.3f66bd430301d34b821a863c6174bb97?rik=jYXSA5v%2fIKwt3A&pid=ImgRaw&r=0" alt="Foto 2">
+        </div>
+        <div class="imagen">
+            <img src="https://www.verywellhealth.com/thmb/8VFmBiOt0l_D80ItRh797kU628g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-159627257-5ae377b6c673350036964354.jpg" alt="Foto 3">
+        </div>
+    </section>
+
+    <section>
+        <article>
+            <h2 class="subtitulo">Cambios Hormonales</h2>
+            <p>La adolescencia está marcada por importantes cambios hormonales en el cuerpo. Estos cambios pueden desencadenar el desarrollo de características sexuales secundarias, como el crecimiento de vello, cambios en la voz y el desarrollo de órganos sexuales.</p>
+        </article>
+
+        <article>
+            <h2 class="subtitulo">Cambios Físicos</h2>
+            <p>Los cambios físicos durante la adolescencia incluyen el crecimiento acelerado, cambios en la forma del cuerpo, el desarrollo muscular y óseo, así como la aparición de acné debido a las alteraciones en las glándulas sebáceas.</p>
+        </article>
+
+        <article>
+            <h2 class="subtitulo">Cambios Mentales y Emocionales</h2>
+            <p id="parrafo-destacado">La adolescencia también es un período de cambios mentales y emocionales significativos. Los adolescentes pueden experimentar cambios en su forma de pensar, en su capacidad para tomar decisiones y en su comportamiento social. Además, pueden experimentar fluctuaciones emocionales debido a los cambios hormonales y a la presión social.</p>
+        </article>
+
+        <article id="acne"> 
+            <h2 class="subtitulo">El Acné</h2>
+            <p>El acné es una condición cutánea común durante la adolescencia, causada por el aumento de la producción de sebo en las glándulas sebáceas. Puede ser tratado con cuidado adecuado de la piel, medicamentos tópicos y, en algunos casos, medicamentos recetados por un dermatólogo.</p>
+        </article>
+    </section>
+
+    <section id="hormonas">
+        <table>
+            <tr>
+                <th>Tema</th>
+                <th>Descripción</th>
+                <th>Más Información</th>
+            </tr>
+            <tr>
+                <td>Deseos Sexuales</td>
+                <td>Es común que los adolescentes experimenten deseos sexuales durante esta etapa. Es importante brindar educación sexual adecuada y apoyo emocional.</td>
+                <td><a href="https://cuidateplus.marca.com/familia/adolescencia/diccionario/sexualidad-adolescencia.html" target="_blank">Leer más</a></td>
+            </tr>
+            <tr>
+                <td>Cambios en el Cerebro</td>
+                <td>El cerebro experimenta cambios significativos durante la adolescencia, incluyendo el desarrollo del córtex prefrontal, responsable del control de los impulsos y la toma de decisiones.</td>
+                <td><a href="https://lamenteesmaravillosa.com/los-cambios-cerebro-la-adolescencia/" target="_blank">Leer más</a></td>
+            </tr>
+            <tr>
+                <td>Acné</td> <!-- Nuevo enlace para la sección de acné -->
+                <td>Información sobre el acné durante la adolescencia.</td>
+                <td><a href="https://kidshealth.org/es/teens/acne.html" target="_blank">Leer más</a></td>
+            </tr>
+            <tr>
+    <td>Cambios de Humor</td>
+    <td>Los cambios de humor son comunes durante la adolescencia y pueden ser causados por una combinación de factores hormonales, sociales y emocionales.</td>
+    <td><a href="https://mejorconsalud.as.com/cambios-de-humor-en-la-adolescencia/" target="_blank">Leer más</a></td>
+</tr>
+
+        </table>
+    </section>
+
+    <aside>
+        <h3>Consejos para Padres</h3>
+        <ul class="lista-personalizada">
+            <li>Escucha activamente a tu hijo adolescente.</li>
+            <li>Respeta su privacidad, pero mantén abiertas las líneas de comunicación.</li>
+            <li>Brinda apoyo emocional y orientación.</li>
+            <li>Proporciona información clara y precisa sobre los cambios que experimentará.</li>
+            <li>Establece límites y normas claras.</li>
+        </aside>
+    <footer>
+        <p>Desarrollado por: <span id="nombre">Maria Camila Rey</span></p>
+        <p>Contacto: <span id="email">mariacamilareymunoz5@gmail.com</span></p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
